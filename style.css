@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  margin-top: 150px;
+}
+.grid {
+  position: absolute;
+  width: 560px;
+  height: 300px;
+  border: solid green;
+  left: 390px;
+  bottom: 130px;
+  border-radius: 10px;
+}
+.block {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: green;
+}
+.user {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: rgb(255, 251, 0);
+}
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: red;
+}
+#score {
+  color: rgb(8, 4, 255);
+  font-size: 30px;
+  text-align: center;
+  margin-top: 350px;
+}
+.submit {
+  margin: 0;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateX(-50%);
+  width: 160px;
+  height: 40px;
+  background-color: rgb(43, 255, 0);
+  font-size: 20px;
+  cursor: pointer;
+}
